@@ -1,0 +1,19 @@
+--
+-- Table structure for table `paises`
+--
+
+CREATE TABLE IF NOT EXISTS `paises` (
+  `idpais` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(50) NOT NULL,
+  PRIMARY KEY (`idpais`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `paises`
+--
+
+INSERT INTO `paises` (`idpais`, `nombre`) VALUES
+(1, 'Argentina'),
+(2, 'España'),
+(3, 'México'),
+(4, 'Colombia');
